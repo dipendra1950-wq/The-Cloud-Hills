@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cloud Hills | Recruitment & Technology Solutions</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Inter',sans-serif;
+}
+
+body{
+    color:#1f2937;
+    line-height:1.6;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+header{
+    background:#fff;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    box-shadow:0 2px 10px rgba(0,0,0,.05);
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 0;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:800;
+    color:#2563eb;
+}
+
+.nav-links{
+    display:flex;
+    gap:30px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#333;
+    font-weight:500;
+}
+
+.hero{
+    background:linear-gradient(135deg,#2563eb,#06b6d4);
+    color:white;
+    padding:120px 0;
+}
+
+.hero-content{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    align-items:center;
+    gap:50px;
+}
+
+.hero h1{
+    font-size:55px;
+    line-height:1.1;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    margin-bottom:30px;
+    opacity:.95;
+}
+
+.btn{
+    display:inline-block;
+    padding:14px 28px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.btn-primary{
+    background:white;
+    color:#2563eb;
+}
+
+.btn-secondary{
+    border:2px solid white;
+    color:white;
+    margin-left:15px;
+}
+
+.hero-card{
+    background:white;
+    color:#111;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 20px 50px rgba(0,0,0,.15);
+}
+
+.hero-card h3{
+    margin-bottom:15px;
+}
+
+section{
+    padding:90px 0;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title h2{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#2563eb;
+}
+
+.about{
+    background:#f8fafc;
+}
+
+.about-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:50px;
+    align-items:center;
+}
+
+.stats{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+
+.stat{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    text-align:center;
+}
+
+.stat h3{
+    color:#2563eb;
+    font-size:32px;
+}
+
+.contact{
+    background:#111827;
+    color:white;
+}
+
+.contact-box{
+    text-align:center;
+}
+
+.contact-box p{
+    margin:15px 0;
+}
+
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+@media(max-width:768px){
+
+.hero-content,
+.about-grid{
+    grid-template-columns:1fr;
+}
+
+.hero h1{
+    font-size:40px;
+}
+
+.nav-links{
+    display:none;
+}
+
+.btn-secondary{
+    margin-left:0;
+    margin-top:15px;
+    display:block;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="container">
+<nav>
+<div class="logo">Cloud Hills</div>
+
+<div class="nav-links">
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#careers">Careers</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+</div>
+</header>
+
+<section class="hero">
+<div class="container">
+<div class="hero-content">
+
+<div>
+<h1>Connecting Talent. Delivering Technology.</h1>
+
+<p>
+Cloud Hills is a trusted partner for IT Recruitment,
+Staffing Solutions, Software Development, Cloud Services,
+and Digital Transformation.
+</p>
+
+<a href="#contact" class="btn btn-primary">Hire Talent</a>
+<a href="#services" class="btn btn-secondary">Explore Services</a>
+</div>
+
+<div class="hero-card">
+<h3>Why Cloud Hills?</h3>
+
+<ul>
+<li>✔ IT Recruitment & Staffing</li>
+<li>✔ Contract & Permanent Hiring</li>
+<li>✔ Software Development</li>
+<li>✔ Cloud & DevOps Consulting</li>
+<li>✔ Enterprise Technology Solutions</li>
+<li>✔ Fast Turnaround & Quality Delivery</li>
+</ul>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="services">
+<div class="container">
+
+<div class="section-title">
+<h2>Our Services</h2>
+<p>Talent Solutions + Technology Services</p>
+</div>
+
+<div class="services">
+
+<div class="card">
+<h3>IT Recruitment</h3>
+<p>
+Permanent hiring, contract staffing,
+executive search, and niche technology recruitment.
+</p>
+</div>
+
+<div class="card">
+<h3>Contract Staffing</h3>
+<p>
+Scale your workforce quickly with qualified
+technology professionals.
+</p>
+</div>
+
+<div class="card">
+<h3>Software Development</h3>
+<p>
+Custom web applications, enterprise software,
+and digital platforms.
+</p>
+</div>
+
+<div class="card">
+<h3>Cloud Consulting</h3>
+<p>
+AWS, Azure, GCP migration,
+optimization, and cloud operations.
+</p>
+</div>
+
+<div class="card">
+<h3>DevOps Solutions</h3>
+<p>
+Automation, CI/CD pipelines,
+containerization, and infrastructure management.
+</p>
+</div>
+
+<div class="card">
+<h3>Managed Services</h3>
+<p>
+End-to-end support, maintenance,
+and technology operations.
+</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<section class="about" id="about">
+<div class="container">
+
+<div class="about-grid">
+
+<div>
+<h2>About Cloud Hills</h2>
+<br>
+
+<p>
+Cloud Hills helps businesses solve two critical challenges:
+finding the right talent and delivering the right technology.
+Our recruitment and technology teams work together to help
+clients build high-performing organizations.
+</p>
+</div>
+
+<div class="stats">
+
+<div class="stat">
+<h3>500+</h3>
+<p>Candidates Placed</p>
+</div>
+
+<div class="stat">
+<h3>100+</h3>
+<p>Clients Supported</p>
+</div>
+
+<div class="stat">
+<h3>50+</h3>
+<p>Technology Experts</p>
+</div>
+
+<div class="stat">
+<h3>24/7</h3>
+<p>Client Support</p>
+</div>
+
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="careers">
+<div class="container">
+
+<div class="section-title">
+<h2>Careers</h2>
+<p>Join our growing team.</p>
+</div>
+
+<div class="card">
+<h3>We're Hiring</h3>
+
+<p>
+We are always looking for recruiters,
+software engineers, cloud consultants,
+DevOps engineers, and technology leaders.
+</p>
+
+<br>
+
+<a href="mailto:careers@cloudhills.in" class="btn btn-primary">
+Apply Now
+</a>
+</div>
+
+</div>
+</section>
+
+<section class="contact" id="contact">
+<div class="container">
+
+<div class="contact-box">
+
+<h2>Contact Us</h2>
+
+<p>Email: info@cloudhills.in</p>
+<p>Phone: +91 XXXXX XXXXX</p>
+<p>Location: India</p>
+
+<br>
+
+<a href="mailto:info@cloudhills.in" class="btn btn-primary">
+Get In Touch
+</a>
+
+</div>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Cloud Hills. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
